@@ -1,0 +1,18 @@
+### traer informacion
+
+GET http://localhost:3000/GET/usuarios
+
+### Eliminar un usuario
+DELETE http://localhost:3000/DELETE/usuarios/3
+
+### Editar un usuario
+PUT http://localhost:3000/PUT/usuarios/4
+Content-Type: application/json
+
+{
+   "nombres": "Ricardo",
+    "apellidos": "Pereira",
+    "ciudad": "El Cesar",
+    "edad": "25",
+    "profesion": "Odontologo"
+}
